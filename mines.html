@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mines Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    <h1 class="mines-header">Mines</h1>
+    <h3 class="subtext">Can Generate 1-3 Mines (Most likely 3!)</h3>
+    <button class="try-again hidden">Try Again?</button>
+
+    <div class="playing">
+      <button class="square-1 defaultStuff">?</button>
+      <button class="square-2 defaultStuff">?</button>
+      <button class="square-3 defaultStuff">?</button>
+      <button class="square-4 defaultStuff">?</button>
+      <button class="square-5 defaultStuff">?</button>
+      <button class="square-6 defaultStuff">?</button>
+      <button class="square-7 defaultStuff">?</button>
+      <button class="square-8 defaultStuff">?</button>
+      <button class="square-9 defaultStuff">?</button>
+      <button class="square-10 defaultStuff">?</button>
+      <button class="square-11 defaultStuff">?</button>
+      <button class="square-12 defaultStuff">?</button>
+      <button class="square-13 defaultStuff">?</button>
+      <button class="square-14 defaultStuff">?</button>
+      <button class="square-15 defaultStuff">?</button>
+      <button class="square-16 defaultStuff">?</button>
+      <button class="square-17 defaultStuff">?</button>
+      <button class="square-18 defaultStuff">?</button>
+      <button class="square-19 defaultStuff">?</button>
+      <button class="square-20 defaultStuff">?</button>
+      <button class="square-21 defaultStuff">?</button>
+      <button class="square-22 defaultStuff">?</button>
+      <button class="square-23 defaultStuff">?</button>
+      <button class="square-24 defaultStuff">?</button>
+      <button class="square-25 defaultStuff">?</button>
+      <h1 class="score">Current Score: 0</h1>
+    </div>
+
+    <div class="modal hidden">
+      <p>You Lost!</p>
+      <button onClick="window.location.reload();" class="refresh">
+        GO AGAIN!
+      </button>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
